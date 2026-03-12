@@ -93,6 +93,7 @@ public class SecurityConfig {
                 .requestMatchers("/api/reports/**").permitAll()
                 .requestMatchers("/api/users/**").permitAll()
                 .requestMatchers("/admin/tasks", "/admin/**").permitAll()
+                .requestMatchers("/api/employees/**").permitAll()
 
 
                 // ✅ ROLE BASED
